@@ -1,0 +1,16 @@
+#actor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  width: 14ch;
+  height: 10ch;
+  background-color: beige;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: burlywood;
+  border-width: 3px;
+  cursor: pointer;
+}

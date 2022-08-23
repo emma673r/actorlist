@@ -29,5 +29,5 @@ function getActorDetails(actor) {
   console.log(actor);
   //   actor = list[0];
   actorDetailsContent.innerHTML = `<h2 class = "actor-fullname">${actor.fullname}</h2>
-          <p class = "actor-movie">${actor.movie}</p>`;
+          <p class = "actor-movie">You guessed it ! <b>${actor.movie}</b></p>`;
 }
