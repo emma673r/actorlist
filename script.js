@@ -11,7 +11,6 @@ function start() {
 async function fetchData() {
   const response = await fetch(url);
   list = await response.json();
-  //console.log(list);
   showList();
 }
 
@@ -28,11 +27,7 @@ function showList() {
 
 function getActorDetails(actor) {
   console.log(actor);
-//   actor = list[0];
+  //   actor = list[0];
   actorDetailsContent.innerHTML = `<h2 class = "actor-fullname">${actor.fullname}</h2>
           <p class = "actor-movie">${actor.movie}</p>`;
-  // actor.forEach((actor), click)
-  // if (actor.classList.contains("actor")) {
-  //    actorDetailsContent.innerHTML
-  // }
 }
