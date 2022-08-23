@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", start);
  }
 
  function showList() {
-    let
+    let main = "";
     main.innerHTML = <h2>Actor List</h2>;
  }
 
