@@ -14,3 +14,33 @@ button {
   border-width: 3px;
   cursor: pointer;
 }
+
+.sort_btn {
+  color: beige;
+  background-color: rosybrown;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  background-color: beige;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: burlywood;
+  border-width: 3px;
+  padding: 25px;
+}
+
+#close {
+  cursor: pointer;
+}
+
+.valgt {
+  background-color: brown;
+}
+
+nav {
+  padding-bottom: 30px;
+}
